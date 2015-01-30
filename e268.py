@@ -12,6 +12,9 @@ smallPrimes = [
 ];
 
 def euler268(cap, primeMax, count):
+  """return the number of integers less than cap which are divisible by count distinct
+     primes below primeMax"""
+
   primes = [i for i in smallPrimes if i < primeMax]
   total = 0
   
